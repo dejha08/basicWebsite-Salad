@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+a,
+label,
+button {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background-color: #222831;
+	color: #eeeeee;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: transparent;
+	padding: 25px;
+}
+
+nav ul li {
+	list-style-type: none;
+	margin-right: 20px;
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+.landingPage,
+.featuredRecipes {
+	display: flex;
+	/* padding: 80px 90px; */
+	padding: 0px 100px;
+}
+
+.landingImage img,
+img.featuredImage {
+	height: 950px;
+	width: 850px;
+}
+
+.landingText,
+.featuredText {
+	padding: 100px;
+}
+
+.landingText h1 {
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+
+.featuredText h1 {
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+
+.allRecipes {
+	padding: 80px 90px;
+	background-color: #eeeeee;
+	color: #222831;
+	/* margin: 0px 100px; */
+}
+
+.allRecipes h1 {
+	font-size: 100px;
+	text-align: center;
+	margin: 50px 0px;
+}
+
+.allRecipesCards {
+	padding: 0px 100px;
+	display: grid;
+	/*template to specify how many columns and the width ofthe columns*/
+	/* grid-template-columns: 500px 500px 500px; */
+	/* number of times to repeat and the width of columns */
+	grid-template-columns: repeat(3, auto);
+}
+
+.imageCard {
+	height: 500px;
+	width: 500px;
+}
+
+.imageCardText {
+	display: none;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+	margin: 0px 80px;
+}
+
+.footerText {
+	margin-bottom: 10px;
+}
+.form-group {
+	margin-bottom: 5px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 2px;
+}
+
+.form-group input {
+	width: 60%;
+	padding: 5px;
+	border: #eeeeee 1px solid;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+#subscribeButton {
+	width: 60%;
+	padding: 5px;
+	background-color: #eeeeee;
+	border: #eeeeee 1px solid;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.otherText {
+	padding: 50px 0px;
+	align-items: center;
+}
