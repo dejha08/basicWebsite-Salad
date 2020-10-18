@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Salad for Days</title>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./mainstyle.css" />
 	</head>
 	<body>
@@ -51,41 +55,30 @@
 		<section class="allRecipes">
 			<div>
 				<h1>All Recipes</h1>
-				<div class="allRecipesCards">
-					<div>
-						<img src="./Salad/cherry.jpg" alt="" srcset="" class="imageCard" />
-						<h2 class="imageCardText">Salad Name</h2>
-					</div>
-					<div>
-						<img src="./Salad/brimble.jpg" alt="" srcset="" class="imageCard" />
-						<h2 class="imageCardText">Salad Name</h2>
-					</div>
-					<div>
-						<img src="./Salad/mariana.jpg" alt="" srcset="" class="imageCard" />
-						<h2 class="imageCardText">Salad Name</h2>
-					</div>
-					<div>
-						<img src="./Salad/monika.jpg" alt="" srcset="" class="imageCard" />
-						<h2 class="imageCardText">Salad Name</h2>
-					</div>
-					<div>
-						<img src="./Salad/nguyen.jpg" alt="" srcset="" class="imageCard" />
-						<h2 class="imageCardText">Salad Name</h2>
-					</div>
-					<div>
-						<img
-							src="./Salad/pulsitos.jpg"
-							alt=""
-							srcset=""
-							class="imageCard"
-						/>
-						<h2 class="imageCardText">Salad Name</h2>
+				<div class="allRecipesCards carousel-container">
+					<span class="material-icons" id="prev"> arrow_back_ios </span>
+					<span class="material-icons" id="next"> arrow_forward_ios </span>
+					<div class="carousel-slide">
+						<img src="./Salad/pulsitos.jpg" alt="" srcset="" id="lastClone" />
+						<img src="./Salad/cherry.jpg" alt="" srcset="" />
+						<img src="./Salad/brimble.jpg" alt="" srcset="" />
+						<img src="./Salad/mariana.jpg" alt="" srcset="" />
+						<img src="./Salad/monika.jpg" alt="" srcset="" />
+						<img src="./Salad/nguyen.jpg" alt="" srcset="" />
+						<img src="./Salad/pulsitos.jpg" alt="" srcset="" />
+						<img src="./Salad/cherry.jpg" alt="" srcset="" id="firstClone" />
 					</div>
 				</div>
+				<button id="prev">
+					<span class="material-icons"> arrow_back_ios </span>
+				</button>
+				<button id="next">
+					<span class="material-icons"> arrow_forward_ios </span>
+				</button>
 			</div>
 		</section>
 		<footer>
-			<div>
+			<div class="textAndForm">
 				<div class="footerText">
 					<h1>Need Recipes Weekly?</h1>
 					<p>Subscribe to our newsletter</p>

@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* /* Small devices (landscape phones, 576px and up)
+@media and screen only (max-width: 576px) {
+	background-color: #000000;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	...;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
@@ -44,7 +64,7 @@ a {
 }
 
 /* Extra Small devices (landscape phones, 576px and down) */
-@media only screen and (max-width: 576px) {
+/* @media only screen and (min-width: 300px) {
 	.landingPage img {
 		width: 100vw;
 		height: 100vh;
@@ -85,56 +105,29 @@ a {
 	}
 
 	.allRecipes {
+		padding: 80px 90px;
 		background-color: #eeeeee;
 		color: #222831;
-		/* margin: 0px 100px; */
 	}
 
 	.allRecipes h1 {
-		font-size: 6rem;
+		font-size: 100px;
 		text-align: center;
-		margin-bottom: 20px;
-		padding: 80px 90px;
-	}
-
-	/* .allRecipesCards {
+		margin: 50px 0px;
 	} */
 
-	.carousel-container {
-		height: 100vh;
-		width: 100vw;
-		overflow: hidden;
-		position: relative;
+	/* .allRecipesCards {
+		padding: 0px 100px;
+		display: grid;
+		template to specify how many columns and the width ofthe columns*/ */
+		/* grid-template-columns: 500px 500px 500px;
+		/* number of times to repeat and the width of columns
+		grid-template-columns: repeat(3, auto);
 	}
 
-	.carousel-container img {
-		height: 100vh;
-		width: 100vw;
-	}
-
-	.carousel-slide {
-		display: flex;
-	}
-
-	/*buttons*/
-	#prev {
-		position: absolute;
-		top: 50%;
-		z-index: 10;
-		left: 5%;
-		font-size: 30px;
-		color: #eeeeee;
-		cursor: pointer;
-	}
-
-	#next {
-		position: absolute;
-		top: 50%;
-		z-index: 10;
-		right: 5%;
-		font-size: 30px;
-		color: #eeeeee;
-		cursor: pointer;
+	.imageCard {
+		height: 500px;
+		width: 500px;
 	}
 
 	.imageCardText {
@@ -161,7 +154,7 @@ a {
 
 	.form-group input {
 		width: 60%;
-		padding: 8px;
+		padding: 5px;
 		border: #eeeeee 1px solid;
 		border-radius: 5px;
 		margin-bottom: 5px;
@@ -169,9 +162,9 @@ a {
 
 	#subscribeButton {
 		width: 60%;
-		padding: 10px;
-		background-color: #c7b198;
-		border: #c7b198 1px solid;
+		padding: 5px;
+		background-color: #eeeeee;
+		border: #eeeeee 1px solid;
 		border-radius: 5px;
 		margin-bottom: 5px;
 		font-weight: bold;
@@ -181,5 +174,5 @@ a {
 	.otherText {
 		padding: 50px 0px;
 		align-items: center;
-	}
-}
+    } 
+}*/
