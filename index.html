@@ -4,10 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Salad for Days</title>
-		<link
-			href="https://fonts.googleapis.com/icon?family=Material+Icons"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 		<link rel="stylesheet" href="./mainstyle.css" />
 	</head>
 	<body>
@@ -27,9 +24,9 @@
 				<div class="landingText">
 					<h1>Fancy Some Salad?</h1>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-						ipsum dolor sit amet consectetur adipiscing elit.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
+						amet consectetur adipiscing elit.
 					</p>
 				</div>
 			</div>
@@ -38,43 +35,60 @@
 			<div class="featuredText">
 				<h1>Our Featured Recipe</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-					ipsum dolor sit amet consectetur adipiscing elit.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet
+					consectetur adipiscing elit.
 				</p>
 			</div>
 			<div>
-				<img
-					src="./Salad/featured.jpg"
-					alt=""
-					srcset=""
-					class="featuredImage"
-				/>
+				<img src="./Salad/featured.jpg" alt="" srcset="" class="featuredImage" />
 			</div>
 		</section>
 		<section class="allRecipes">
 			<div>
 				<h1>All Recipes</h1>
-				<div class="allRecipesCards carousel-container">
+				<div class="carousel-container">
 					<span class="material-icons" id="prev"> arrow_back_ios </span>
 					<span class="material-icons" id="next"> arrow_forward_ios </span>
-					<div class="carousel-slide">
-						<img src="./Salad/pulsitos.jpg" alt="" srcset="" id="lastClone" />
-						<img src="./Salad/cherry.jpg" alt="" srcset="" />
-						<img src="./Salad/brimble.jpg" alt="" srcset="" />
-						<img src="./Salad/mariana.jpg" alt="" srcset="" />
-						<img src="./Salad/monika.jpg" alt="" srcset="" />
-						<img src="./Salad/nguyen.jpg" alt="" srcset="" />
-						<img src="./Salad/pulsitos.jpg" alt="" srcset="" />
-						<img src="./Salad/cherry.jpg" alt="" srcset="" id="firstClone" />
+					<div class="allRecipesCards carousel-slide">
+						<div class="firstClone">
+							<img
+								class="imageCard"
+								src="./Salad/pulsitos.jpg"
+								alt=""
+								srcset=""
+								id="lastClone"
+							/>
+						</div>
+						<div>
+							<img class="imageCard" src="./Salad/cherry.jpg" alt="" srcset="" />
+						</div>
+						<div>
+							<img class="imageCard" src="./Salad/brimble.jpg" alt="" srcset="" />
+						</div>
+						<div>
+							<img class="imageCard" src="./Salad/mariana.jpg" alt="" srcset="" />
+						</div>
+						<div>
+							<img class="imageCard" src="./Salad/monika.jpg" alt="" srcset="" />
+						</div>
+						<div>
+							<img class="imageCard" src="./Salad/nguyen.jpg" alt="" srcset="" />
+						</div>
+						<div>
+							<img class="imageCard" src="./Salad/pulsitos.jpg" alt="" srcset="" />
+						</div>
+						<div class="firstClone">
+							<img
+								class="imageCard"
+								src="./Salad/cherry.jpg"
+								alt=""
+								srcset=""
+								id="firstClone"
+							/>
+						</div>
 					</div>
 				</div>
-				<button id="prev">
-					<span class="material-icons"> arrow_back_ios </span>
-				</button>
-				<button id="next">
-					<span class="material-icons"> arrow_forward_ios </span>
-				</button>
 			</div>
 		</section>
 		<footer>
@@ -103,6 +117,6 @@
 				<p>Terms of Service</p>
 			</div>
 		</footer>
-		<script src="./mainscript.js"></script>
+		<script src="./mainscript.js" defer></script>
 	</body>
 </html>
