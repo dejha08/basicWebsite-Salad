@@ -7,6 +7,14 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #222831;
+	color: #eeeeee;
+	overflow-x: hidden;
+}
+
 h1,
 h2,
 a,
@@ -17,13 +25,6 @@ button {
 
 p {
 	font-family: 'Poppins', sans-serif;
-}
-
-body {
-	width: 100vw;
-	height: 100vh;
-	background-color: #222831;
-	color: #eeeeee;
 }
 
 nav ul {
